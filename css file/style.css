@@ -1,0 +1,11 @@
+ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: aquamarine;
+}
