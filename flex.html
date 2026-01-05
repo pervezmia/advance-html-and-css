@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout Basic Overview</title>
+    <style>
+        .box-container{
+            display: flex;
+            gap: 30px;
+        }
+        .box{
+            border: 3px solid rebeccapurple;
+            padding: 20px;
+            background: tan;
+            border-radius: 5px;
+            font-size: 2em;
+        }
+        .user-container{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0px;
+
+        }
+        .user{
+            font-size: 3em;
+            border: 2px solid firebrick;
+            border-radius: 8px;
+            background-color: aqua;
+            padding: 15px;
+        }
+        .card-container{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+
+        }
+        .card{
+            border: 5px solid indigo;
+            padding: 50px;
+            background-color: antiquewhite;
+            color: grey;
+            border-radius: 8px;
+            font-size: 2em;
+        }
+    </style>
+    <link rel="stylesheet" href="css file/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="auto.html">Auto</a></li>
+                <li><a href="center.html">Center</a></li>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="index.html">Index</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <header>
+        <div>
+            <nav class="link">
+                <a href="#">facebook</a>
+                <a href="#">linkedin</a>
+                <a href="#">Twitter</a>
+                <a href="#">Insta</a>
+                <a href="#">Youtube</a>
+
+            </nav>
+        </div>
+    </header> -->
+    <main>
+        <div class="box-container">
+            <div class="box">box-1</div>
+            <div class="box">box-2</div>
+            <div class="box">box-3</div>
+            <div class="box">box-4</div>
+            <div class="box">box-5</div>
+        </div>
+
+        <section>
+            <div class="user-container">
+                <div class="user">user-1</div>
+                <div class="user">user-1</div>
+                <div class="user">user-1</div>
+                <div class="user">user-1</div>
+                <div class="user">user-1</div>
+            </div>
+        </section>
+        <section>
+            <div class="card-container">
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+                <div class="card">card-1</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
