@@ -1,0 +1,21 @@
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    width: 300px;
+    border: 2px solid rgb(73, 79, 138);
+    border-radius: 10px;
+    padding: 20px;
+}
+.card img{
+    width: 100%;
+    box-shadow: 8px 8px 10px rgb(82, 136, 136);
+    border-radius: 10px;
+
+}
