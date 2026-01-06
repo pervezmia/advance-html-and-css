@@ -2,6 +2,9 @@ body{
     max-width: 1170px;
     margin: 0 auto;
 }
+.card-section{
+    text-align: center;
+}
 .card-container{
     display: flex;
     flex-wrap: wrap;
@@ -12,10 +15,35 @@ body{
     border: 2px solid rgb(73, 79, 138);
     border-radius: 10px;
     padding: 20px;
+    text-align: left;
 }
 .card img{
     width: 100%;
     box-shadow: 8px 8px 10px rgb(82, 136, 136);
     border-radius: 10px;
 
+}
+
+.card-section-products{
+    text-align: center;
+}
+.container-of-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.product-card{
+    width: 300px;
+    border: 5px solid gold;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(73, 68, 68, 0.671);
+    text-align: left;
+    padding: 20px;
+
+}
+.product-card img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(90, 84, 84, 0.541);
 }
